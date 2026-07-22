@@ -43,13 +43,13 @@ Para validar a eficácia das regras e alertas do SIEM, utilizei o framework **At
 *   **Simulação:** Execução de scripts para criar tarefas agendadas maliciosas no Windows.
 *   **Resultado:** O Sysmon capturou a criação do processo e o Wazuh disparou o alerta correspondente na console. Desenvolvi um dashboard personalizado para rastrear os binários que mais agendaram tarefas.
 
-📌 *[Insira aqui o Print do Dashboard/Alerta da técnica T1053.005]*
+📌 ![Alerta T1053.005](T1053.005.png.png)
 
 ### Caso 2: Bypass de Defesa via Regsvr32 (T1218.010)
 *   **Simulação:** Uso do utilitário legítimo do Windows (`regsvr32.exe`) para descarregar e executar scripts maliciosos remotamente, evadindo controles de aplicação comuns.
 *   **Resultado:** Threat hunting focado em comportamentos anômalos do processo pai/filho na console do Wazuh.
 
-📌 *[Insira aqui o Print do Alerta do Regsvr32]*
+📌 ![Alerta Regsvr32](regsvr32.png)
 
 ### Caso 3: Ataque Web e Brute-Force com Resposta Ativa (Active-Response)
 *   **Simulação 1:** Varredura agressiva de diretórios web usando a ferramenta **Nikto** contra um servidor protegido por Apache + ModSecurity.
