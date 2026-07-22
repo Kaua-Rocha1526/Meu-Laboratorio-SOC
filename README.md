@@ -63,3 +63,6 @@ Para validar a eficácia das regras e alertas do SIEM, utilizei o framework **At
 ## 📈 Conclusão e Aprendizados
 
 Este laboratório me permitiu entender na prática o ciclo completo de engenharia de detecção: desde a coleta do log bruto no endpoint (Sysmon/AuditD), a normalização e correlação pelo Wazuh Manager, até a criação de respostas automatizadas para mitigar incidentes antes que eles se espalhem pela rede.
+
+
+## 📈 Dashboard:
