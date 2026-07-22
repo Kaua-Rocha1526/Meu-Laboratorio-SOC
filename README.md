@@ -56,7 +56,7 @@ Para validar a eficácia das regras e alertas do SIEM, utilizei o framework **At
 *   **Simulação 2:** Ataque de força bruta via SSH vindo do Kali Linux contra o servidor Ubuntu.
 *   **Defesa Automatizada:** Configuração do **Active-Response** no Wazuh. Assim que o limite de falhas de login/ataques foi atingido, o Wazuh acionou automaticamente scripts de contenção (`firewall-drop` e `host-deny`), bloqueando o IP do atacante (Kali Linux) em tempo real diretamente no UFW.
 
-📌 *[Insira aqui o Print da regra de Active Response mitigando o ataque]*
+📌 
 
 ---
 
