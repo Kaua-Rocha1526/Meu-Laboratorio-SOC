@@ -66,4 +66,4 @@ Este laboratório me permitiu entender na prática o ciclo completo de engenhari
 
 
 ## 📈 Dashboard:
-📌 ![Alerta Agent > Windows > Security events](dash.security.png.png)
+📌 ![Alerta Agent > Windows > Security events](dash.security.png)
